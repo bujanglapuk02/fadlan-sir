@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Pertama</title>
+</head>
+<body>
+    <!-- css embed kita gunakan untuk style si baca selengkapnya, selector adalah a -->
+    <style type="text/css">
+        a{
+            text-decoration:none;
+        }
+        /*hover adalah style pointer pada link */
+        a:hover{
+            font-size:18px;
+			
+        }
+        nav{
+            height:40px;
+            background:#344;
+            font-size:24px;
+            padding:10px;
+            color:#F00;
+        }
+        nav a{
+            color:white;
+        }
+        footer{
+            background:#344;
+            height:80px;
+            text-align:center;
+            margin:auto;
+            padding:10px;
+            color:white;
+            font-family:Cambria;
+        }
+    </style>
+	<nav>
+	<!-- ini untuk menu dari semantik html -->
+	<a href="index.php">Beranda</a> | <a href="#"Profil</a> | <a href="#">Karir</a>
+	
+</nav>
+<!-- Heading ini adalah text title, ada 6 jenis heading h1-h6 -->
+<h2 style="font-family:tahoma; color:red; border:display; background:#ccc;height:40px;padding:10px;">UJINSU Masuk Top Global</h2> <!-- head pertama -->
+<p>Video provides a powerful way to help you prove your point. When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document. To make your document look professionally produced, Word provides header, footer, cover page, and text box designs that complement each other. For example, you can add a matching cover page, header, and sidebar. Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them <a href="more1.php">Baca selengkapnya...</a></p> <!-- end pertama -->
+
+<h2 style="font-family:tahoma; color:red; border:display; background:#ccc;height:40px;padding:10px;">Tuntungan Baru panen buah jagung</h2>
+<p>Video provides a powerful way to help you prove your point. When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document. To make your document look professionally produced, Word provides header, footer, cover page, and text box designs that complement each other. For example, you can add a matching cover page, header, and sidebar. Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them <a href="more1.php">Baca selengkapnya...</a></p>
+
+<h2 style="font-family:tahoma; color:red; border:display; background:#ccc;height:40px;padding:10px;">Masyarakat Deli Serdang selalu bahagia</h2>
+<p>Video provides a powerful way to help you prove your point. When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document. To make your document look professionally produced, Word provides header, footer, cover page, and text box designs that complement each other. For example, you can add a matching cover page, header, and sidebar. Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them <a href="more1.php">Baca selengkapnya...</a></p>
+
+<h2 style="font-family:tahoma; color:red; border:display; background:#ccc;height:40px;padding:10px;">TJ Selamat Banyak Rumah KOS</h2>
+<p>Video provides a powerful way to help you prove your point. When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document. To make your document look professionally produced, Word provides header, footer, cover page, and text box designs that complement each other. For example, you can add a matching cover page, header, and sidebar. Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them <a href="more1.php">Baca selengkapnya...</a></p>
+
+<h2 style="font-family:tahoma; color:red; border:display; background:#ccc;height:40px;padding:10px;">TJ Selamat Banyak Rumah KOS</h2>
+<p>Video provides a powerful way to help you prove your point. When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document. To make your document look professionally produced, Word provides header, footer, cover page, and text box designs that complement each other. For example, you can add a matching cover page, header, and sidebar. Click Insert and then choose the elements you want from the different galleries. Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them <a href="more1.php">Baca selengkapnya...</a></p>
+
+<footer>copyright@uinsu.ac.id</footer>
+</body>
+</html>

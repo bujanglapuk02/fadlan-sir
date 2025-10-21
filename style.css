@@ -1,0 +1,205 @@
+#wrapper{
+    width:960px;
+    margin:auto;
+}
+/* Header styling */
+header {
+    background-color: #FF5722; /* Fallback color if the image does not load */
+    color: #FFFFFF;
+    padding: 0;
+    height: 120px; /* Adjust as needed */
+}
+
+/* Container to hold logo and "Lihat Produk" link */
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; /* Adds padding to the left and right */
+    height: 100%; /* Ensures it takes the full header height */
+}
+
+/* Styling for the logo area */
+.logo {
+    background-image: url('images/header-bg.jpg'); /* Path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Styling for the "Lihat Produk" link */
+.lihat-produk {
+    color: #FF5722; /* Adjust color as needed */
+    background-color: #FFFFFF;
+    padding: 5px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.lihat-produk:hover {
+    background-color: #F5F5F5;
+}
+
+/* Navigation styling */
+nav {
+    background-color: #DFDFDF;
+    border-top: 1px solid #AAAAAA;
+    border-bottom: 1px solid #AAAAAA;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    position: relative;
+    margin-right: 10px;
+    padding: 5px 10px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background-color: #EDEDED;
+}
+
+nav ul li .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #DFDFDF;
+    border: 1px solid #AAAAAA;
+    padding: 5px 0;
+    list-style: none;
+}
+
+nav ul li:hover .submenu {
+    display: block;
+}
+
+.submenu li {
+    padding: 5px 10px;
+    width: 100px;
+}
+
+.submenu li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.submenu li a:hover {
+    text-decoration: underline;
+}
+
+article {
+    width: 620px;
+    float: left;
+    padding: 10px;
+}
+
+.article-item {
+    display: flex;
+    border: 1px solid #DFDFDF;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 13px;
+    background-color: #F9F9F9;
+}
+
+.article-item img {
+    width: 150px;
+    height: 150px;
+    margin-right: 15px;
+}
+
+.article-content {
+    flex: 1;
+}
+
+.article-content h2 {
+    font-family: Tahoma;
+    font-size: 18px;
+    color: #333;
+    margin: 0 0 10px;
+    background-color: #EEEEEE;
+    padding: 5px;
+}
+
+.article-content p {
+    margin: 0 0 10px;
+    color: #666;
+}
+
+.read-more {
+    display: inline-block;
+    background-color: #CF6;
+    color: #000;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+#wrapper aside {
+    width: 300px;
+    float: left;
+    padding: 10px;
+}
+
+#wrapper aside .widget {
+    list-style: none;
+}
+
+#wrapper aside .widget ul {
+    list-style: none;
+    margin-left: -40px;
+}
+
+#wrapper aside .widget li a {
+    text-decoration: none;
+    color: #446500;
+}
+
+#wrapper aside .widget li a:hover {
+    text-decoration: underline;
+}
+footer {
+    width: 960px;
+    float: left;
+    background: #333333;
+    color: #BBBBBB;
+}
+
+footer #column {
+    width: 300px;
+    float: left;
+    padding: 10px;
+    font-size: 14px;
+}
+
+footer #column h2 {
+    margin: 0px;
+    margin-bottom: 10px;
+    font-family: Tahoma;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+footer #column a {
+    color: #0099CC;
+    text-decoration: none;
+}
